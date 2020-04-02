@@ -1,0 +1,31 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --container: 1140px;
+}
+
+.Container {
+  margin: 0 auto;
+  max-width: var(--container);
+}
+
+body {
+  color: #ffffff;
+  font-family: "Baloo Da 2", cursive;
+  background: rgba(0, 134, 255, 1);
+}
+
+.Weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
